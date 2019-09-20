@@ -30,7 +30,7 @@ const routes = [
   { path: '/index', component: index},
   { path: '/receive', component: receive},
   
-  { path: '*', redirect: '/receive' }   /*默认跳转路由*/
+  { path: '*', redirect: '/login' }   /*默认跳转路由*/
 ]
 
 // 实例化VueRouter 
